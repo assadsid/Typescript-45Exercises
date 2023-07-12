@@ -1,5 +1,6 @@
 # Typescript-Assignment-01
 
-All my exercises of assignment 1 are attached in this repository.
+I have completed 20 exercises of assignment 1, which are attached in this repository.
+
 
 Kindly review!
