@@ -1,6 +1,5 @@
-var nm1 = ("> assadsid");
-var nm2 = ("> ASSADSID");
-var nm3 = ("> Assadsid");
-console.log(nm1);
-console.log(nm2);
-console.log(nm3);
+let nm1 = ("> assadsid");
+let nm2 = ("> ASSADSID");
+let nm3 = ("> Assadsid");
+
+console.log(`${nm1}\n${nm2}\n${nm3}`);
