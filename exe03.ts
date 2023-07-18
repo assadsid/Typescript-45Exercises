@@ -1,5 +1,5 @@
-let nm1 = ("> assadsid");
-let nm2 = ("> ASSADSID");
-let nm3 = ("> Assadsid");
+let nm2 = "Assad";
 
-console.log(`${nm1}\n${nm2}\n${nm3}`);
+console.log(nm2.toLowerCase());
+console.log(nm2.toUpperCase());
+console.log(nm2);
