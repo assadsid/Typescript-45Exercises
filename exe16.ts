@@ -1,12 +1,22 @@
-var names = ["Ali", "Saad", "Sana", "Hina"];
+let greetingList = ["Ali", "Haris", "Rafay", "Hassan"];
 
-var message = ("I'd like to invite you a Dinner gathering at my home");
+function greeting(greetingList:string) {
+    console.log(`Dear ${greetingList}, you're invited for the dinner tonight`)
+}
 
-  //  for (var a=0 ; a<names.length ; a++){
-  //  console.log(names[a] + ", " + message);
-//}
-names[1] = "Ahmed"; names[4] = "Aisha";
+greeting(greetingList[0]);
+greeting(greetingList[1]);
+greeting(greetingList[2]);
+greeting(greetingList[3]);
 
-    for (var a=0 ; a<names.length ; a++){
-        console.log(names[a] + ", " + message);
-    }
+console.log("Hey Everyone, I found a bigger dinner table and I'd like to invite more people for the dinner tonight");
+
+greetingList.push("Daniyal", "Rahim", "Sultan");
+
+greeting(greetingList[0]);
+greeting(greetingList[1]);
+greeting(greetingList[2]);
+greeting(greetingList[3]);
+greeting(greetingList[4]);
+greeting(greetingList[5]);
+greeting(greetingList[6]);
