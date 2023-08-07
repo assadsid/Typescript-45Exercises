@@ -1,20 +1,20 @@
-var names = ["Saad", "Hina"];
-var message = ("I'd like to invite you a Dinner gathering at my home");
-//  for (var a=0 ; a<names.length ; a++){
-//  console.log(names[a] + ", " + message);
-//}
-names[2] = "Ahmed";
-names[3] = "Aisha";
-//  for (var a=0 ; a<names.length ; a++){
-//     console.log(names[a] + ", " + message);
-// }
-var message2 = ("I am only inviting two people for Dinner's gathering");
-console.log(message2);
-var message3 = ("I am sorry that i can't invite you to Dinner gathering");
-//   for (var a=0 ; a<names.length ; a++){
-//       console.log(names[a] + ", " + message3);
-//       }
-var names2 = ["Ali", "Sana"];
-//   for (var a=0 ; a<names2.length ; a++){
-//       console.log(names2[a] + ", " + message);
-//       }
+let greetingList = ["Ali", "Haris", "Rafay", "Hassan"];
+function greeting(greetingList) {
+    console.log(`Dear ${greetingList}, you're invited for the dinner tonight`);
+}
+greetingList.push("Daniyal", "Rahim", "Sultan");
+greeting(greetingList[0]);
+greeting(greetingList[1]);
+greeting(greetingList[2]);
+greeting(greetingList[3]);
+greeting(greetingList[4]);
+greeting(greetingList[5]);
+greeting(greetingList[6]);
+console.log("Sadly, the bigger table is not available on time, only two people i can invite for the dinner tonight");
+greetingList.shift();
+greetingList.shift();
+greetingList.shift();
+greetingList.pop();
+greetingList.pop();
+greeting(greetingList[0]);
+greeting(greetingList[1]);
