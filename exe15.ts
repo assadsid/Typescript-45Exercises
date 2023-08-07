@@ -1,13 +1,19 @@
-var names = ["Ali", "Saad", "Sana"];
+let greetingList = ["Ali", "Haris", "Noman", "Hassan"];
 
-var message = ("I'd like to invite you a Dinner gathering at my home");
+function greeting(greetingList:string) {
+    console.log(`Dear ${greetingList}, you're invited for the dinner tonight`)
+}
 
-   // for (var a=0 ; a<names.length ; a++){
-   // console.log(names[a] + ", " + message);
-//}
+greeting(greetingList[0])
+greeting(greetingList[1])
+greeting(greetingList[2])
+greeting(greetingList[3])
 
-    names[1] = "Ahmed";
+console.log(`${greetingList[2]} can't come for the dinner tonight`)
 
-    for (var a=0 ; a<names.length ; a++){
-        console.log(names[a] + ", " + message);
-    }  
+greetingList.splice(2, 1, "Rafay");
+
+greeting(greetingList[0])
+greeting(greetingList[1])
+greeting(greetingList[2])
+greeting(greetingList[3])
