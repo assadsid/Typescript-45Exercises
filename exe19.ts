@@ -1,12 +1,16 @@
-var names = ["Ali", "Saad", "Sana", "Hina", "Ahmed", "Sana"];
-var list = ("There are total " + names.length + " persons attending dinner gathering")
-/*
-names[4] = "Ahmed"; names[5] = "Aisha";
-// This will result a list format of persons.
-    for (var a=0 ; a<names.length ; a++){
-        console.log (a +" "+ names[a]);
-    }
-*/
+let greetingList = ["Ali", "Haris", "Rafay", "Hassan"];
 
-// This will result a liner statement that how many persons are invited.
-// console.log(list);
+function greeting(greetingList:string) {
+    console.log(`Dear ${greetingList}, you're invited for the dinner tonight`);
+}
+greetingList.push("Daniyal", "Rahim", "Sultan");
+
+// greeting(greetingList[0]);
+// greeting(greetingList[1]);
+// greeting(greetingList[2]);
+// greeting(greetingList[3]);
+// greeting(greetingList[4]);
+// greeting(greetingList[5]);
+// greeting(greetingList[6]);
+
+console.log(`Hey everyone, I am inviting ${greetingList.length} people for dinner tonight`);
