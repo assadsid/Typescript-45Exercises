@@ -16,22 +16,22 @@ if(`If score is 80 but type not match, It's false`) {
 if(`If only score is equal to 80, It's true`) {
     console.log(score == "80");
 }
-if(`Is score greater than 80, It's false`) {
+if(`If score greater than 80, It's false`) {
     console.log(score > 80);
 }
-if(`Is score less than 85, It's true`) {
+if(`If score less than 85, It's true`) {
     console.log(score < 85);
 }
-if(`Is score greater and equal to 85, It's false`) {
+if(`If score greater and equal to 85, It's false`) {
     console.log(score >= 85);
 }
-if(`Is score less and equal to 80, It's true`) {
+if(`If score less and equal to 80, It's true`) {
     console.log(score >= 80);
 }
-if(`Is grade is match but score not match, It's false`) {
+if(`If grade is match but score not match, It's false`) {
     console.log(grade === "A" && score == 85);
 }
-if(`Is grade is not match but score is match, It's true`) {
+if(`If grade is not match but score is match, It's true`) {
     console.log(grade === "B" || score == 80);
 }
 
