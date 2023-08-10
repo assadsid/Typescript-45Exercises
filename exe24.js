@@ -34,10 +34,26 @@ if (`Is grade is match but score not match, It's false`) {
 if (`Is grade is not match but score is match, It's true`) {
     console.log(grade === "B" || score == 80);
 }
-let arr01 = [10, 20, 30, 40];
-if (`Is 35 in array, It's false`) {
-    console.log(35 in arr01);
+let arr02 = [10, 20, 30, 40, 50, 60];
+let findNum = 30;
+for (let i = 0; i < arr02.length; i++) {
+    // console.log(arr02[i]);
+    if (arr02[i] === findNum) {
+        console.log(`Found ${findNum} on index ${i}`);
+        break;
+    }
 }
-if (`Is 30 in array, It's true`) {
-    console.log(30 in arr01);
+let arr03 = [10, 20, 30, 40, 50, 60];
+let findNum03 = 70;
+let found = false;
+for (let i = 0; i < arr02.length; i++) {
+    // console.log(arr02[i]);
+    if (arr02[i] === findNum) {
+        console.log(`Found ${findNum} on index ${i}`);
+        found = true;
+        break;
+    }
+}
+if (found == false) {
+    console.log(`Not found`);
 }
