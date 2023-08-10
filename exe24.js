@@ -46,10 +46,10 @@ for (let i = 0; i < arr02.length; i++) {
 let arr03 = [10, 20, 30, 40, 50, 60];
 let findNum03 = 70;
 let found = false;
-for (let i = 0; i < arr02.length; i++) {
-    // console.log(arr02[i]);
-    if (arr02[i] === findNum) {
-        console.log(`Found ${findNum} on index ${i}`);
+for (let i = 0; i < arr03.length; i++) {
+    // console.log(arr03[i]);
+    if (arr03[i] === findNum03) {
+        console.log(`Found ${findNum03} on index ${i}`);
         found = true;
         break;
     }
