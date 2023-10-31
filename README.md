@@ -1,5 +1,5 @@
 # Typescript-45Exercises-Assignment
 
-Completed the 45 exercises of assignment are attached in this repository.
+Dear Sir,
 
-Kindly review!
+The 45 exercises of Typescript assignment are attached in this repository, kindly review!
